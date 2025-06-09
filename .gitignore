@@ -65,6 +65,7 @@ yarn-error.log*
 .env
 .env.*
 *.env
+!example.env
 
 # ====================================
 # Docker
@@ -86,7 +87,7 @@ __docker_cache__/
 *.xlsx
 *.xls
 *.json
-ml_model/__pycache__/
+backend/ml_model/__pycache__/
 
 # ====================================
 # OS files
